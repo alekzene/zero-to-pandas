@@ -44,4 +44,28 @@ print(num)
 num *= 4 # idk what to call this (2)
 print(num)
 num /= 5 # idk what to call this (3)
-print(num)
+print(num) # turned into a float bc got divided [div (/) always returns float]
+# use floor division (//) to keep int
+
+# var names cannot start with numbers
+# 3_muskateers = 123 # SyntaxError: invalid decimal literal
+
+print(type(num))
+
+random = 2.3487484778785787878578585
+num = -892839893889289392998238928939823892893239238223 # int & float datatyped in python have no value limits
+
+num =  2. # no syntax error if i put a dot at the end of a numerical value; auto counts as float
+
+# FIXME review scientific notation (with 'e')
+one_hundredth = 1e-2
+avogadro_number = 6.02214076e23 
+
+# casting
+avogadro_number = int(avogadro_number) # float --> int removes decimals
+print(avogadro_number)
+
+""" Python : Java 
+list : list
+tuple : enum
+dictionary : hashmap """
