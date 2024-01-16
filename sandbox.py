@@ -101,3 +101,8 @@ print(len(another_pun))
 a_long_line = "       This is a long line with some space before, after,     and some space in the middle..    "
 a_long_line_stripped = a_long_line.strip()
 a_long_line_stripped # 'This is a long line with some space before, after,     and some space in the middle..'
+
+the_3_musketeers = ["Athos", "Porthos", "Aramis"]
+str(the_3_musketeers)
+# "['Athos', 'Porthos', 'Aramis']"
+# FIXME: why did it not use single quotes for list enclosure and double quotes for the elements
