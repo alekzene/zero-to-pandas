@@ -68,3 +68,28 @@ print(avogadro_number)
 # boolean (type: bool)
 # all values are truthy except for 0, 0.0, None, and empty data structures(list, tuple, dict, set) and ranges
 
+# strings (type: string)
+# interestingly, in Jupyter Hub, the output includes single quotations (') enclosing the string value
+# however, in VSCode, the output doesn't have any quotation marks. why so?
+# ANSWER: in Jupyter Hub, the variable was called and its output was produced. no print function used.
+# in VSCode, i used the print() function to display the output, which automatically removes the quotation marks.
+print("Saturday")
+
+# in Jupyter Hub, if the string value uses a single quotation mark in the string literal,
+# the output automatically uses double quotation marks (") for enclosure
+
+# to use a double quote within a string written with double quotes, 
+# escape the inner quotes by prefixing them with the `\` character
+another_pun = "The first time I got a universal remote control, I thought to myself \"This changes everything\"."
+
+# multiline quotes
+""" Python : Java 
+list : list
+tuple : enum
+dictionary : hashmap """
+
+# \n (new line character) for line breaks
+
+# len() : gets string length
+# counts per character including whitespaces ( ), line breaks [\n], and other escape sequences [\"]
+print(len(another_pun))
