@@ -65,7 +65,6 @@ avogadro_number = 6.02214076e23
 avogadro_number = int(avogadro_number) # float --> int removes decimals
 print(avogadro_number)
 
-""" Python : Java 
-list : list
-tuple : enum
-dictionary : hashmap """
+# boolean (type: bool)
+# all values are truthy except for 0, 0.0, None, and empty data structures(list, tuple, dict, set) and ranges
+
