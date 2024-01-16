@@ -93,3 +93,11 @@ dictionary : hashmap """
 # len() : gets string length
 # counts per character including whitespaces ( ), line breaks [\n], and other escape sequences [\"]
 print(len(another_pun))
+
+# split([delimiter]) : splits string by set delimeter
+"Sun,Mon,Tue,Wed,Thu,Fri,Sat".split(",") # ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
+
+# strip() : removes whitespaces at the start and end of a string
+a_long_line = "       This is a long line with some space before, after,     and some space in the middle..    "
+a_long_line_stripped = a_long_line.strip()
+a_long_line_stripped # 'This is a long line with some space before, after,     and some space in the middle..'
